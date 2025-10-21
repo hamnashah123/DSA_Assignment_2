@@ -9,14 +9,14 @@
 
 ---
 
-## 📘 Overview
+##  Overview
 This project implements a **Network Monitoring System** using **custom Stack and Queue** data structures in **C++17**.  
 It captures, filters, and replays live network packets through **raw sockets** on a Linux interface.  
 The system demonstrates practical use of **Stacks (LIFO)** and **Queues (FIFO)** for managing packet flow and protocol parsing.
 
 ---
 
-## ⚙️ Features
+##  Features
 - Raw socket capture using `AF_PACKET`
 - Supports Ethernet, IPv4, IPv6, TCP, and UDP layers  
 - Custom-built Stack and Queue (no STL containers)  
@@ -29,7 +29,7 @@ The system demonstrates practical use of **Stacks (LIFO)** and **Queues (FIFO)**
 
 ---
 
-## 🧠 Core Data Structures
+##  Core Data Structures
 ### Queue (FIFO)
 Used for ordered packet flow between stages:  
 `Capture → Filter → Replay → Backup`
